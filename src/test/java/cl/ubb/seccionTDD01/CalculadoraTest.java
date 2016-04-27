@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import cl.ubb.agil.Calculator;
+import cl.ubb.seccionTDD01.Calculadora;
 
 public class CalculadoraTest {
 
@@ -16,7 +16,7 @@ public class CalculadoraTest {
 		/*Act*/
 		int resultado= calculo.sumar(2,2);
 		/*Assert*/
-		assertThat(resultado,is(4));
+		assertThat(resultado,is(5));
 	}
 
 }
