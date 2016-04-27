@@ -55,6 +55,14 @@ public class CalculadoraTest {
 		/*Assert*/
 		assertThat(resultado,is(4));
 	}
+	@Test
+	public void divisionTreintayseisEsSeis(){
+		/*Arrange*/
+		/*Act*/
+		int resultado=calculo.divicion(36,6);
+		/*Assert*/
+		assertThat(resultado,is(6));
+	}
 	
 	
 
