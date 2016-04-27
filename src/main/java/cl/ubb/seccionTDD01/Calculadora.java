@@ -9,7 +9,7 @@ public class Calculadora {
 
 	public int resta(int i, int j) {
 		// TODO Auto-generated method stub
-		return -15;
+		return i-j;
 	}
 
 }
