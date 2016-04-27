@@ -14,7 +14,7 @@ public class Calculadora {
 
 	public int divicion(int i, int j) {
 		// TODO Auto-generated method stub
-		return 4;
+		return i/j;
 	}
 
 }

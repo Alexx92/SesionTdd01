@@ -8,6 +8,7 @@ import org.junit.Test;
 
 
 import cl.ubb.seccionTDD01.Calculadora;
+import cl.ubb.seccionTDD01.ExcepcionOperacionInvalida;
 
 public class CalculadoraTest {
 	private Calculadora calculo;
@@ -56,13 +57,14 @@ public class CalculadoraTest {
 		assertThat(resultado,is(4));
 	}
 	@Test
-	public void divisionTreintayseisEsSeis(){
+	public void divisionTreintayseisEsSeis() throws ExcepcionOperacionInvalida{
 		/*Arrange*/
 		/*Act*/
 		int resultado=calculo.divicion(36,6);
 		/*Assert*/
 		assertThat(resultado,is(6));
 	}
+	
 	
 	
 
