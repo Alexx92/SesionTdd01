@@ -36,6 +36,14 @@ public class CalculadoraTest {
 		/*Assert*/
 		assertThat(resultado,is(127));
 	}
+	@Test
+	public void restaMenosDiezMenosCincoEsMenosQuince(){
+		Calculadora calculo = new Calculadora();
+		/*Act*/
+		int resultado=calculo.resta(-10,5);
+		/*Assert*/
+		assertThat(resultado,is(-15));
+	}
 	
 
 }
