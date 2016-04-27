@@ -47,10 +47,11 @@ public class CalculadoraTest {
 		/*Assert*/
 		assertThat(resultado,is(-15));
 	}
+	@Test
 	public void divisionDoceYTres(){
 		/*Arrange*/
 		/*Act*/
-		int resultado=calculo.divicion(12,4);
+		int resultado=calculo.divicion(12,3);
 		/*Assert*/
 		assertThat(resultado,is(4));
 	}
