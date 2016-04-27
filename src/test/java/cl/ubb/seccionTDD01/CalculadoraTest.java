@@ -11,6 +11,15 @@ import cl.ubb.seccionTDD01.Calculadora;
 
 public class CalculadoraTest {
 	@Test
+	public void dosMasTresEscinco(){
+		/*Arrange*/
+		Calculadora calculo = new Calculadora();
+		/*Act*/
+		int resultado=calculo.sumar(2,3);
+		/*Assert*/
+		assertThat(resultado,is(5));
+	}
+	@Test
 	public void menos1MasSieteEsSeis(){
 		/*Arrange*/
 		Calculadora calculo = new Calculadora();
